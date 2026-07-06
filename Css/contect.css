@@ -1,0 +1,169 @@
+/*=========================================
+        GOOGLE FONT
+=========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*=========================================
+        RESET
+=========================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+.selfintro{
+    width:74%;
+    margin:60px auto;
+    border:2px solid #f0ecec;
+    border-radius:18px;
+    padding:40px 50px;
+    box-sizing:border-box;
+    background:#f0ecec;
+}
+
+.selfintro h1{
+    text-align:center;
+    font-size:40px;
+    color:#131212;
+    margin-bottom:15px;
+}
+
+.selfintro p{
+    width:80%;
+    margin:0 auto 40px;
+    text-align:center;
+    font-size:19px;
+    line-height:1.7;
+    color:#2e2e2e;
+}
+
+.selfintro form{
+    width:61%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.selfintro form label{
+    font-size:20px;
+    font-weight:600;
+    color:#f34c4c;
+    margin-bottom:8px;
+}
+
+.selfintro form input,
+.selfintro form textarea{
+    width:100%;
+    padding:15px 18px;
+    margin-bottom:22px;
+    border:2px solid #361a1a;
+    border-radius:12px;
+    font-size:19px;
+    outline:none;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+.selfintro form input:focus,
+.selfintro form textarea:focus{
+    border-color:#ff7a00;
+    border-width: 3px;
+    box-shadow:0 0 6px rgba(255,122,0,.3);
+}
+
+.selfintro form textarea{
+    resize:vertical;
+    min-height:180px;
+}
+
+.selfintro form button{
+    width:220px;
+    margin:10px auto 0;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    background:#ff7a00;
+    color:#fff;
+    font-size:21px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.selfintro form button:hover{
+    background:#e96d00;
+}
+
+
+/* ================= Tablet ================= */
+
+@media(max-width:768px){
+
+    .selfintro{
+        width:90%;
+        padding:30px 20px;
+    }
+
+    .selfintro h1{
+        font-size:32px;
+    }
+
+    .selfintro p{
+        width:100%;
+        font-size:16px;
+    }
+
+    .selfintro form{
+        width:90%;
+    }
+
+}
+
+
+/* ================= Mobile ================= */
+
+@media(max-width:480px){
+
+    .selfintro{
+        width:95%;
+        padding:20px 15px;
+    }
+
+    .selfintro h1{
+        font-size:26px;
+    }
+
+    .selfintro p{
+        font-size:15px;
+        margin-bottom:25px;
+    }
+
+    .selfintro form{
+        width:100%;
+    }
+
+    .selfintro form label{
+        font-size:16px;
+    }
+
+    .selfintro form input,
+    .selfintro form textarea{
+        padding:12px;
+        font-size:15px;
+    }
+
+    .selfintro form button{
+        width:100%;
+    }
+
+}

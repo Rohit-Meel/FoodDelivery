@@ -1,0 +1,259 @@
+/*=========================================
+        GOOGLE FONT
+=========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*=========================================
+        RESET
+=========================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+.about{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 50px 8%;
+    box-sizing: border-box;
+}
+
+.aboutus{
+    width: 50%;
+}
+
+.aboutus h1{
+    font-size: 49px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.aboutus p{
+    font-size: 21px;
+    line-height: 1.8;
+    color: #353333;
+    text-align: justify;
+}
+
+.aboutbg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutbg img{
+    width: 100%;
+    max-width: 550px;
+    height: 75vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px){
+
+    .about{
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .aboutus,
+    .aboutbg{
+        width: 100%;
+    }
+
+    .aboutus h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .aboutus p{
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .aboutbg img{
+        max-width: 100%;
+    }
+}
+
+
+
+.aboutftbg{
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    box-sizing: border-box;
+    padding: 12px;
+}
+.aboutftbg .ftbg{
+    width: 100%;
+    height: 68vh;
+   
+    gap: 15px;
+    position: relative;
+}
+.aboutftbg .ftbg img{
+    width: 99%;
+    height: 62vh;
+     justify-content: space-between;
+     box-sizing: border-box;
+}
+
+@media(max-width:470px){
+    .aboutftbg .ftbg img{
+        flex-direction: column;
+        width: 99%;
+       object-fit: cover;
+    }
+    .aboutftbg{
+        flex-direction: column;
+        gap: 12px;
+        padding: 6px;
+        width: 100%;
+        height: auto ;
+    }
+}
+@media(max-width:786px){
+    .aboutftbg .ftbg img{
+        
+        width: 99%;
+       object-fit: cover;
+        justify-content: space-between;
+    }
+    .aboutftbg{
+        flex-direction: column;
+        gap: 12px;
+        padding: 6px;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+}
+
+
+
+.aboutftbg1{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    padding:19px;
+    box-sizing:border-box;
+    flex-wrap:wrap;
+}
+
+.aboutftbg1 .ftbg1{
+    flex:1 1 calc(25% - 20px);
+    min-width:250px;
+    background:#ececec;
+    border:2px solid #d5d5d5;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+    box-sizing:border-box;
+    transition:0.3s;
+}
+
+.aboutftbg1 .ftbg1 img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 20px;
+}
+
+.aboutftbg1 .ftbg1 h1{
+    font-size:29px;
+    margin-bottom:15px;
+    color:#000;
+}
+
+.aboutftbg1 .ftbg1 p{
+    font-size:19px;
+    line-height:1.6;
+    color:#333;
+}
+
+
+/* ================= Tablet ================= */
+
+@media (max-width:786px){
+
+    .aboutftbg1{
+        gap:20px;
+        padding:10px;
+    }
+
+    .aboutftbg1 .ftbg1{
+        flex:1 1 calc(50% - 10px);
+        min-width:220px;
+    }
+
+    .aboutftbg1 .ftbg1 img{
+        width:80px;
+        height:80px;
+    }
+
+    .aboutftbg1 .ftbg1 h1{
+        font-size:22px;
+    }
+
+    .aboutftbg1 .ftbg1 p{
+        font-size:15px;
+    }
+
+}
+
+
+/* ================= Mobile ================= */
+
+@media (max-width:470px){
+
+    .aboutftbg1{
+        flex-direction:column;
+        gap:15px;
+        padding:8px;
+    }
+
+    .aboutftbg1 .ftbg1{
+        flex:100%;
+        min-width:100%;
+        padding:18px;
+    }
+
+    .aboutftbg1 .ftbg1 img{
+        width:70px;
+        height:70px;
+    }
+
+    .aboutftbg1 .ftbg1 h1{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+
+    .aboutftbg1 .ftbg1 p{
+        font-size:14px;
+        line-height:1.5;
+    }
+
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLocal</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/about.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =========================
+            HEADER START
+    ========================== -->
+
+    <header class="header">
+        <div class="container">
+            <!-- Search Bar -->
+            <div class="search-area">
+                <form class="search-form">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Search products, stores, groceries...">
+                </form>
+            </div>
+
+            <!--Logo -->
+            <div class="logo-area">
+                <a href="../Html/index.html">
+                    <img src="../Images/logo2.png" alt="QuickLocal Logo">
+                </a>
+            </div>
+
+           <div class="right-area">
+
+    <!-- Login (Logged Out) -->
+    <a href="login.html" class="header-link" id="loginLink">
+        <i class="fa-solid fa-right-to-bracket"></i>
+        <span>Login / Signup</span>
+    </a>
+
+    <!-- User Name (Logged In) -->
+    <span class="header-user" id="userName" style="display:none;">
+        Hi, <span id="displayName"></span>
+    </span>
+
+    <!-- Logout -->
+    <a href="#" class="header-link logout-link" id="logoutLink" style="display:none;">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        <span>Logout</span>
+    </a>
+
+    <!-- Profile -->
+    <a href="profile.html" class="header-link">
+        <i class="fa-solid fa-user"></i>
+        <span>My Profile</span>
+    </a>
+
+    <!-- Wishlist -->
+    <a href="wishlist.html" class="header-link">
+        <i class="fa-solid fa-heart"></i>
+        <span>Wishlist</span>
+    </a>
+
+    <!-- Cart -->
+    <a href="cart.html" class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+    </a>
+
+</div>
+              
+            </div>
+        </div>
+    </header>
+
+    <!-- =========================================
+                NAVBAR START
+========================================= -->
+
+    <nav class="navbar">
+
+        <div class="container">
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+
+                <li class="nav-item">
+                    <a href="../Html/index.html" class="nav-link ">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link active">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Html/products.html" class="nav-link">
+                        Products
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Html/store-locator.html" class="nav-link">
+                        Store Locator
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Html/contact.html" class="nav-link">
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <!-- =========================================
+                NAVBAR END
+========================================= -->
+
+
+    <!-- =======Product===== -->
+    <section class="contect">
+        <div class="conta">
+            <h1>About Us</h1>
+        </div>
+    </section>
+    <!-- ===============================
+        BACK TO TOP BUTTON
+================================ -->
+
+    <button id="topBtn" title="Go To Top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <!-- === Top Section Of About Us ======-->
+    <section class="about">
+        <div class="aboutus">
+            <h1>QuickLocal</h1>
+            <p>Welcome to Quick Local, your trusted destination for fresh groceries, daily essentials, and quality
+                products delivered with speed and convenience. We are committed to making everyday shopping simple,
+                reliable, and affordable for every customer. Our platform brings together a wide range of grocery items,
+                fresh vegetables, fruits, dairy products, beverages, snacks, and household essentials in one place. We
+                carefully select our products to ensure the highest standards of quality and freshness. Customer
+                satisfaction is at the heart of everything we do, and we continuously strive to provide an easy and
+                enjoyable shopping experience. With secure ordering, competitive prices, and fast local delivery, Quick
+                Local saves you time while ensuring you get exactly what you need. Our mission is to support local
+                communities by connecting customers with trusted suppliers and delivering products right to their
+                doorstep. We believe that shopping should be convenient, transparent, and stress-free. Whether you're
+                stocking up for your family or making a quick purchase, Quick Local is here to serve you with
+                reliability and care. Thank you for choosing Quick Local as your everyday shopping partner. We look
+                forward to serving you with excellence, every single day.</p>
+        </div>
+        <div class="aboutbg">
+            <img src="../Images/Grocery Store Design.jpg" alt="About Pic">
+        </div>
+    </section>
+    <!-- === Mid Section Of About Us ======-->
+    <section class="aboutftbg1">
+        <div class="ftbg1">
+             <img src="../Images/ingredient.png" alt="Our Footer BG">
+            <h1>Exotic Ingredients</h1>
+            <p>Special dishes require special ingredients and Maple makes sure you get them conveniently</p>
+        </div>
+
+        <div class="ftbg1">
+             <img src="../Images/fruit.png"  alt="Our Footer BG">
+            <h1>Fresh Fruits & Vegetables</h1>
+            <p>100% organic and fresh fruits and vegetables are a great choice for a healthy meal.</p>         
+        </div>
+
+        <div class="ftbg1">
+            <img src="../Images/ice-cream.png" alt="Our Footer BG">
+            <h1>Frozen Seafood</h1>
+            <p>Frozen food and ready to eat meals are quick convenient and healthy</p>
+        </div>
+
+        <div class="ftbg1">
+             <img src="../Images/bread.png" alt="Our Footer BG">
+            <h1>Fresh Bread</h1>
+            <p>Freshly baked assortment of breads gives customers a choice of quality products with a variety of flavours.</p>
+        </div>
+    </section>
+
+    <!-- =====End Section Of About Us===== -->
+    <section class="aboutftbg">
+        <div class="ftbg">
+            <img src="../Images/foterimg1.jpg" alt="Our Footer BG">
+        </div>
+        <div class="ftbg">
+            <img src="../Images/foterimg2.png" alt="Our Footer BG">
+        </div>
+        <div class="ftbg">
+            <img src="../Images/foterimg3.png" alt="Our Footer BG">
+        </div>
+    </section>
+
+    <!-- ====Sub Footer==== -->
+    <section class="sub-footer">
+
+        <div class="footer-box">
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+                <h3>Our Location</h3>
+                <p>Nawalgarh, Rajasthan, India</p>
+                <p>Kuchaman City, Rajasthan, India</p>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <i class="fa-solid fa-phone"></i>
+
+            <div>
+                <h3>Call Us</h3>
+                <p>+91 98765 43210</p>
+                <p>+91 98765 12345</p>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <i class="fa-solid fa-envelope"></i>
+
+            <div>
+                <h3>Email Us</h3>
+                <p>info@quicklocal.com</p>
+                <p>support@quicklocal.com</p>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <!-- Left -->
+        <div class="footer-col">
+
+            <img src="../Images/logo2.png" alt="QuickLocal Logo" class="footer-logo">
+
+            <p>
+                QuickLocal is your trusted hyperlocal delivery platform.
+                Order groceries, medicines, food and local services in just a few clicks.
+            </p>
+
+        </div>
+
+        <!-- Center -->
+        <div class="footer-col">
+
+            <h3>Our Products</h3>
+
+            <ul>
+
+                <li><a href="../Html/products.html?category=grocery">Grocery</a></li>
+
+                <li><a href="../Html/products.html?category=restaurant">Restaurant</a></li>
+
+                <li><a href="../Html/products.html?category=medicine">Medicine</a></li>
+
+                <li><a href="../Html/products.html?category=services">Services</a></li>
+
+
+            </ul>
+
+        </div>
+
+        <!-- Right -->
+        <div class="footer-col">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="../Html/index.html">Home</a></li>
+
+                <li><a href="../Html/about.html">About</a></li>
+
+                <li><a href="../Html/products.html">Products</a></li>
+
+                <li><a href="../Html/store-locator.html">Store-Locator</a></li>
+
+                <li><a href="../Html/contact.html">Contact</a></li>
+
+
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <div class="copyright">
+
+        © 2026 QuickLocal. All Rights Reserved.
+
+    </div>
+     <script src="../Js/auth.js"></script>
+    <script src="../Js/script.js"></script>
+</body>

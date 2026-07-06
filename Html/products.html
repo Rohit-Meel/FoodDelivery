@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLocal</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../Css/products.css">
+    <link rel="stylesheet" href="../Css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =========================
+            HEADER START
+    ========================== -->
+
+    <header class="header">
+        <div class="container">
+            <!-- Search Bar -->
+            <div class="search-area">
+                <form class="search-form">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" placeholder="Search products, stores, groceries...">
+                </form>
+            </div>
+
+            <!--Logo -->
+            <div class="logo-area">
+                <a href="../Html/index.html">
+                    <img src="../Images/logo2.png" alt="QuickLocal Logo">
+                </a>
+            </div>
+
+            <!-- Right Side -->
+                       <div class="right-area">
+
+    <!-- Login (Logged Out) -->
+    <a href="login.html" class="header-link" id="loginLink">
+        <i class="fa-solid fa-right-to-bracket"></i>
+        <span>Login / Signup</span>
+    </a>
+
+    <!-- User Name (Logged In) -->
+    <span class="header-user" id="userName" style="display:none;">
+        Hi, <span id="displayName"></span>
+    </span>
+
+    <!-- Logout -->
+    <a href="#" class="header-link logout-link" id="logoutLink" style="display:none;">
+        <i class="fa-solid fa-right-from-bracket"></i>
+        <span>Logout</span>
+    </a>
+
+    <!-- Profile -->
+    <a href="profile.html" class="header-link">
+        <i class="fa-solid fa-user"></i>
+        <span>My Profile</span>
+    </a>
+
+    <!-- Wishlist -->
+    <a href="wishlist.html" class="header-link">
+        <i class="fa-solid fa-heart"></i>
+        <span>Wishlist</span>
+    </a>
+
+    <!-- Cart -->
+    <a href="cart.html" class="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-count">0</span>
+    </a>
+
+</div>
+             
+            </div>
+        </div>
+    </header>
+
+    <!-- =========================================
+                NAVBAR START
+========================================= -->
+
+    <nav class="navbar">
+
+        <div class="container">
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+
+                <li class="nav-item">
+                    <a href="../Html/index.html" class="nav-link ">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Html/about.html" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link active">
+                        Products
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Html/store-locator.html" class="nav-link">
+                        Store Locator
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../Html/contact.html" class="nav-link">
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <!-- =========================================
+                NAVBAR END
+========================================= -->
+
+<!-- =======Product===== -->
+<section class="contect">
+    <div class="conta">
+        <h1>Product Section</h1>
+    </div>
+</section>
+<!-- ===============================
+        BACK TO TOP BUTTON
+================================ -->
+
+    <button id="topBtn" title="Go To Top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+<section class="products-hero">
+
+    <div class="products-heading">
+
+        <p id="breadcrumb">
+            <!-- Home / Products -->
+        </p>
+
+        <h1 id="categoryTitle">
+            Products
+        </h1>
+
+        <p>
+            Find everything you need with fast delivery.
+        </p>
+
+    </div>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+        >
+
+        <button id="searchBtn">
+
+            🔍
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= Products ================= -->
+
+<section class="products-section">
+
+    <div class="products-grid" id="productsContainer">
+
+        <!-- JavaScript yaha products show karegi -->
+
+    </div>
+
+</section>
+
+<!--========================
+
+No Products
+
+=========================-->
+
+<div class="no-products" id="noProducts">
+
+    <h2>No Products Found 😔</h2>
+
+    <p>Try another category.</p>
+
+</div>
+
+<section class="sub-footer">
+
+    <div class="footer-box">
+        <i class="fa-solid fa-location-dot"></i>
+
+        <div>
+            <h3>Our Location</h3>
+              <p>Nawalgarh, Rajasthan, India</p>
+             <p>Kuchaman City, Rajasthan, India</p>
+        </div>
+    </div>
+
+    <div class="footer-box">
+        <i class="fa-solid fa-phone"></i>
+
+        <div>
+            <h3>Call Us</h3>
+            <p>+91 98765 43210</p>
+            <p>+91 98765 12345</p>
+        </div>
+    </div>
+
+    <div class="footer-box">
+        <i class="fa-solid fa-envelope"></i>
+
+        <div>
+            <h3>Email Us</h3>
+            <p>info@quicklocal.com</p>
+            <p>support@quicklocal.com</p>
+        </div>
+    </div>
+
+</section>
+<footer class="footer">
+
+    <!-- Left -->
+    <div class="footer-col">
+
+        <img src="../Images/logo2.png" alt="QuickLocal Logo" class="footer-logo">
+
+        <p>
+            QuickLocal is your trusted hyperlocal delivery platform.
+            Order groceries, medicines, food and local services in just a few clicks.
+        </p>
+
+    </div>
+
+    <!-- Center -->
+    <div class="footer-col">
+
+        <h3>Our Products</h3>
+
+        <ul>
+
+            <li><a href="../Html/products.html?category=grocery">Grocery</a></li>
+
+            <li><a href="../Html/products.html?category=restaurant">Restaurant</a></li>
+
+            <li><a href="../Html/products.html?category=medicine">Medicine</a></li>
+
+            <li><a href="../Html/products.html?category=services">Services</a></li>
+
+        </ul>
+
+    </div>
+
+    <!-- Right -->
+    <div class="footer-col">
+
+        <h3>Quick Links</h3>
+
+        <ul>
+
+             <li><a href="../Html/index.html">Home</a></li>
+
+            <li><a href="../Html/about.html">About</a></li>
+
+            <li><a href="../Html/products.html">Products</a></li>
+
+            <li><a href="../Html/store-locator.html">Store-Locator</a></li>
+
+            <li><a href="../Html/contact.html">Contact</a></li>
+
+
+        </ul>
+
+    </div>
+
+</footer>
+
+<div class="copyright">
+
+    © 2026 QuickLocal. All Rights Reserved.
+
+</div>
+ 
+ <script src="../Js/product-data.js"></script>
+<script src="../Js/products.js"></script>
+<script src="../Js/auth.js"></script>
+<!-- <script src="../Js/script.js"></script> -->
+</body>
