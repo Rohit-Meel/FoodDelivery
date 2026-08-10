@@ -1071,9 +1071,47 @@ Responsive
     display: block;
 }
 }
+@media (max-width: 576px) {
 
+    .hero-slider {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2 / 1;
+    }
 
-@media(max-width:576px){
+    .slide {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+    }
+
+    .prev,
+    .next {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .prev {
+        left: 8px;
+    }
+
+    .next {
+        right: 8px;
+    }
+
+    .dots {
+        bottom: 8px;
+    }
+}
+
+/* @media(max-width:576px){
 
 .hero-slider{
 
@@ -1112,10 +1150,10 @@ Responsive
     object-fit: cover;
     width: 100%;
     height: 100%;
-    /* display: block; */
+    
 }
 
-}
+} */
 @media(max-width:480px){
     .slide img{
         object-fit: cover;
@@ -1126,14 +1164,28 @@ Responsive
 }
 @media(max-width:280px){
     .slide img{
-        object-fit: contain;
+        object-fit: cover;
         width: 100%;
         height: 100%;
         /* display: block; */
     }
 }
-
-
+@media(max-width:180px){
+    .slide img{
+        object-fit:cover;
+        width: 100%;
+        height: 100%;
+        /* display: block; */
+    }
+}
+@media(max-width:220px){
+    .slide img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        /* display: block; */
+    }
+}
 /*========================
 
 Selection
