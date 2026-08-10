@@ -30,6 +30,9 @@ body {
     box-sizing:border-box;
     background:#f0ecec;
 }
+#textarea{
+    background:#f0ecec;
+}
 
 .selfintro h1{
     text-align:center;
